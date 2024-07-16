@@ -42,6 +42,16 @@
     margin: 0 auto;
 }
 
+.section-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    width: 468px;
+}
+
+.section-description{
+    font-size: 1rem;
+    font-weight: 400;
+}
 
 /* header related styles */
 
@@ -86,10 +96,7 @@
     font-weight: 700;
 }
 
-.banner-description{
-    font-size: 1rem;
-    font-weight: 400;
-}
+
 
 .btn-primary{
     margin-bottom: 20px;
@@ -117,11 +124,7 @@
     max-width: 530px;
 }
 
-.feature-title{
-    font-size: 2.8rem;
-    font-weight: 700;
-    width: 468px;
-}
+
 
 .quick{
     color: rgb(114, 114, 114);
@@ -133,6 +136,132 @@
     font-weight: 800;
     
 }
+
+
+/* some facts styles */
+
+.fact{
+    width: 241.83px;
+    height: 241.83px;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 144, 14);
+    border-radius: 8px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 35.92px;
+}
+
+.fats-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 auto;
+    margin-top: 100.08px;
+}
+
+.fast-number{
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.fact-name{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.section{
+    width: 540px;
+    height: 53px;
+}
+
+
+
+/* sponspors  styles */
+
+.sponspors{
+    text-align: center;
+    margin-top: 180.08px;
+}
+
+.sponspors-title{
+   font-size: 2.8rem;
+   font-weight: 700;
+   color: rgb(19, 19, 19);
+}
+
+.sponspors-description{
+    width: 542px;
+    height: 52px;
+    margin-left: 449px;
+}
+
+
+
+/* icon sytls */
+
+.icon{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 63.83px;
+}
+
+.icon-size{
+    width: 166.76px;
+    height: 50px;
+}
+
+.icon-size2{
+    width: 165px;
+    height: 50px;
+}
+
+.icon-size3{
+    width: 153px;
+    height: 50px;
+}
+
+.icon-size4{
+    width: 152px;
+    height: 50px;
+}
+
+.icon-size5{
+    width: 181px;
+    height: 50px;
+}
+
+/* footer styles */
+
+.footer{
+    display: flex;
+    align-items: center;
+    margin-top: 169px;
+    text-align: center;
+    max-width: 1440px;
+    height: 100px;
+    margin-left: 440px;
+    border-radius: 8px;
+    margin-bottom: 216px;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+
+.footer-description{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-left: 410px;
+    padding: 38px 39px;
+}
+
+
+
+
+
+
+
 
 @media screen and (max-width: 576px) {
     .navbar, .nav-links, .teams {
